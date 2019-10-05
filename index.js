@@ -71,8 +71,8 @@ module.exports = (api, options) => {
     description: 'Run the included server.',
     usage: 'vue-cli-service serve:ssr [options]',
     options: {
-      '-p, --port [port]': 'specify port',
-      '-h, --host [host]': 'specify host',
+      '--port [port]': 'specify port',
+      '--host [host]': 'specify host',
     },
   }, async (args) => {
     const { createServer } = require('./lib/server')
